@@ -1,107 +1,118 @@
+.body{
+  margin-right: 0%;
+}
+.navbar{
+  width: 100%;
+  height: 10%;
+}
+.view{
+  margin: 0;
+}
 .navbar-dark {
-    background-color:rgb(9, 78, 75);
-
-
-
-
-  
-  }
-  .footer {
-    background-color:rgb(2, 77, 73);
-    margin: 0px auto;
-    height: 70%;
-    font-size: 20px;
-    position: relative;
-    padding-top: 2%;
-  }
-  #white{
-      color: azure;
-      font-size: medium;
-  }
- 
-  #first{
-      background-color: rgb(250, 250, 250);
-      margin: 0px 0px 0px 0px;
-      color: rgb(9, 78, 75);
-      border-radius: 0px;
-  }
-  #color{
+    background-color:rgb(9, 94, 89);
+}
+.modal-body{
+    background-color:rgb(241, 239, 239); 
+}
+.modal-header{
+    background-color: rgb(45, 160, 154);
+}
+.jumbotron {
+    margin: 0;
+    background-color: rgb(250, 246, 246);
+    height: 350px;
+    width:1365px;
+    display: flex;
+    padding-left: 5rem;
+    align-items: center;
     color: rgb(9, 78, 75);
-  }
-  #about us{
-      padding-right: 20 px;
-      padding-left: 20 px;
-      margin-right: 20 px;
-      margin-left: 20 px;
-  }
-  .row-header{
-      background-color:rgb(250, 246, 246) ;
-      margin-top: 8%;
-      margin-bottom: 4%;
-      position: relative;
-      margin-left: 11%;
-      margin-right: 10%;
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-bottom: 5%;
-      padding-top: 5%;
-      
-      
-  }
-  #gap{
-      position: relative;
-      margin-top:8%;
-  }
-  .row-header1{
-      background-color:rgb(9, 78, 75); 
+ }
+
+ .about{
+    margin-top: 6%;
+    padding-bottom:3%;
+     
+}
+
+.about-header{
+    background-color:rgb(250, 246, 246) ;
+    position: relative;
+    margin-left: 12%;
+    margin-right: 11%;
+}
+.about-body{
+  position: relative;
+  margin-left: 12%;
+  margin-right: 11%;
+  color: rgb(9, 78, 75);
+  font-size:medium;
+  background-color:rgb(255, 253, 253)
+}
+.Galary{
+    border-top: 1px ridge;
+    margin-top: 6%;
+    padding-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.galary-header{
+    
     margin-top: 4%;
     margin-bottom: 4%;
     position: relative;
-    margin-left: 22%;
-    margin-right: 22%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-    padding-bottom: 0.5%;
-    padding-top: 0.5%;
+    margin-left: 11%;
+    margin-right: 11%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: rgb(9, 78, 75);
+  
     
     
-}
-.row-header2{
     
-  margin-top: 4%;
-  margin-bottom: 4%;
-  position: relative;
-  margin-left: 11%;
-  margin-right: 10%;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
-  padding-top: 2%;
-  
-  
-  
-}
-#card1{
-    background-color:rgb(241, 239, 239);;
-    padding: 10% 10% 10% 10%;
-    margin-top: 20%;
-    position: relative;
-    margin-bottom: 20%;
-}
-#card2{
-    background-color:rgb(241, 239, 239);
-    color:rgb(9, 78, 75); 
-    padding: 5% 5% 5% 5%;
-    position: relative;
-
-}
-#back{
-    background-color:rgb(9, 78, 75); 
-}
-.jumbotron {
-    margin: 0px auto;
-    padding-top: 10%;
-    padding-bottom: 5%;
-    height: 500%;
-    position: relative;
   }
+  .thumbnail{
+    width: 70%;
+    height: 50%;
+}
+#contact-card{
+    background-color:rgb(241, 239, 239);;
+    padding: 5% 5% 5% 5%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    margin-bottom: 10%;
+}
+  .footer {
+    background-color:rgb(2, 77, 73);
+    display: flex;
+    width: 1363px;
+    height: 40vh;
+    font-size: medium;
+    align-items: center;
+    justify-content: space-between;
+    padding:8rem;
+    color: azure;
+    
+
+  }
+  .color{
+    color: rgb(9, 78, 75);
+  }
+  
+  
+.image1{
+    width: 1365px;
+     height: 20%;
+ }
+ .image2{
+    width: 50%;
+    height: 30%;
+}
+.copy{
+  padding-top: 8rem;
+}
